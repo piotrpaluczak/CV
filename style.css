@@ -3,21 +3,23 @@ body {
     background-color: aliceblue;
     padding: 40px 0px;
 }
-h2 {
-    font-size: 28px;
-    
-}
+
 h1 {
     font-size: 36px;
     
 }
-span {
-    color: gray;
-   
+
+h2 {
+    font-size: 28px;
+    
 }
-img {
-    width: 180px;
-    height: 180px;
+
+h3 {
+    margin-top: 5px;
+}
+
+span {
+    color: gray; 
 }
 
 section,
@@ -53,4 +55,35 @@ header li {
 
 .circle {
     border-radius: 50%;
+}
+
+.profile-picture {
+    width: 180px;
+    height: 180px;
+}
+
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hobbies li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.hobbies div {
+    margin-left: 20px;
+}
+
+.hobbies p {
+    color: gray;
+}
+
+p {
+    line-height: 1.5;
 }
